@@ -53,8 +53,7 @@ This repository contains my journey of learning web development using the **Supe
 
 ---
 
+## 🎉 Acknowledgments
 
-#🎉 Acknowledgments
-
-Thanks to SuperSimpleDev for the amazing course.
-Exercise solutions and code references: SuperSimpleDev GitHub.
+- Thanks to SuperSimpleDev for the amazing course.
+- Exercise solutions and code references: SuperSimpleDev GitHub.
