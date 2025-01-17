@@ -23,7 +23,7 @@ This repository contains my journey of learning web development using the **Supe
 ## 🔨 Progress  
 
 - ✅ **HTML Basics**  
-- ⬜ **CSS Basics**  
+- ✅ **CSS Basics**  
 - ⬜ **Hovers, Transitions, and Shadows**  
 - ⬜ **Chrome DevTools & CSS Box Model**  
 - ⬜ **Text Styles**  
