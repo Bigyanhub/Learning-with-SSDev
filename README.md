@@ -46,7 +46,7 @@ This repository contains my journey of learning web development using the **Supe
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/learning-with-ssdev.git  
+   git clone https://github.com/Bigyanhub/Learning-with-SSDev.git  
    cd learning-with-ssdev  
 2. Navigate to the folder corresponding to the lesson you're working on.
 3. Open the files in your favorite code editor or browser.
