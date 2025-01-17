@@ -53,5 +53,12 @@ This repository contains my journey of learning web development using the **Supe
 
 ---
 
-##🎉 Acknowledgments
-Thanks to SuperSimpleDev for the amazing course.
+## 🎉 Acknowledgments  
+
+- Special thanks to [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev) for creating this comprehensive course.  
+- Additional resources:  
+  - [Exercise solutions](https://github.com/SuperSimpleDev/html-css-course-2022/tree/main/1-exercise-solutions)  
+  - [HTML and CSS reference](https://supersimpledev.github.io/references/html-css-reference.pdf)  
+
+Your course and resources have been incredibly helpful in my web development journey! 😊
+
