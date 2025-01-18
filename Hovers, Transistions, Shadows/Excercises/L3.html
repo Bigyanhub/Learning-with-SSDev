@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Excercise 3</title>
+
+  <style>
+    /* uber */
+    /* uber */
+    /* uber */
+    .uber {
+      background-color: black;
+      color: white;
+      height: 40px;
+      width: 100px;
+      cursor: pointer;
+      border-radius: 4px;
+      border: none;
+      transition: opacity 0.15s;
+    }
+
+    .uber:hover {
+      opacity: 0.6;
+    }
+
+    /* Amazon */
+    /* Amazon */
+    /* Amazon */
+    .amazon {
+      background-color: rgb(255, 216, 20);
+      height: 40px;
+      width: 150px;
+      border-radius: 20px;
+      border: none;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }
+
+    .amazon:hover {
+      background-color: rgb(245, 205, 03);
+    }
+
+    /* Github */
+    /* Github */
+    /* Github */
+    .github {
+      background-color: rgb(46, 164, 79);
+      height: 40px;
+      width: 100px;
+      color: white;
+      border-radius: 10px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+    }
+
+    .github:hover{
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Bootstrap  */
+    /* Bootstrap  */
+    /* Bootstrap  */
+    .bootstrap-a {
+      background-color: rgb(121, 82, 179);
+      height: 40px;
+      width: 100px;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+
+    }
+    .bootstrap-a:hover {
+      background-color: rgb(104, 53, 182);
+    }
+
+    .bootstrap-b {
+      background-color: white;
+      color: rgb(108, 117, 125);
+      height: 40px;
+      width: 100px;
+      border: solid 1px rgb(108, 117, 125);
+      border-radius: 6px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background-color 0.15s, color 0.15s;
+    }
+
+    .bootstrap-b:hover {
+      background-color: rgb(108, 117, 125);
+      color: white ;
+    }
+
+    /* Linkedin  */
+    /* Linkedin  */
+    /* Linkedin  */
+    .linkedin-a {
+      background-color: rgb(10, 102, 194);
+      height: 40px;
+      width: 200px;
+      color: white;
+      font-size: 14px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+
+    }
+    .linkedin-a:hover {
+      background-color: rgb(6, 84, 161);
+    }
+
+    .linkedin-b {
+      background-color: white;
+      height: 40px;
+      width: 100px;
+      color: rgb(10, 102, 194);
+      font-size: 14px;
+      font-weight: bold;
+      border: 1px solid rgb(10, 102, 194);
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.15s, border-width 0.15s; 
+
+    }
+
+    .linkedin-b:hover {
+      background-color: rgb(226, 240, 254);
+      border-width: 2px;
+    }
+
+    .shop {
+      border: 1px solid black;
+      padding: 5px;
+    }
+    .shop a {
+      color: rgb(0, 113, 133);
+    }
+    .shop a:hover {
+      color: rgb(230, 72, 14);
+    }
+
+    .shop .price {
+      color: rgb(0, 118, 0);
+    }
+
+    .shop .cart{
+      background-color: rgb(255, 216, 20);
+      height: 30px;
+      width: 120px;
+      border-radius: 15px;
+      border: none;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+    .cart:hover{
+      background-color: rgb(247, 202, 0);
+    }
+    .cart:active{
+      opacity: 0.5;
+    }
+
+    .shop .buy {
+      background-color: rgb(255, 164, 28);
+      height: 30px;
+      width: 120px;
+      border-radius: 15px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.15s, opacity 0.15s;
+    }
+    .buy:hover {
+      background-color: rgb(250, 137, 0);
+    }
+    .buy:active {
+      opacity: 0.6;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <p>3a. Uber</p>
+  <button class="uber">Request now</button>
+  <br />
+  <br />
+
+  <p>3b. Amazon</p>
+  <button class="amazon">Add to Cart</button>
+  <br />
+  <br />
+
+  <p>3c. GitHub</p>
+  <button class="github">Sign up</button>
+  <br />
+  <br />
+
+  <p>3d. Bootstrap</p>
+  <button class="bootstrap-a">Get Started</button>
+  <button class="bootstrap-b">Download</button>
+  <br />
+  <br />
+
+  <p>3e. LinkedIn</p>
+  <button class="linkedin-a">Apply on company website</button>
+  <button class="linkedin-b">Save</button>
+  <br />
+
+  <p>3f. Styling the Shop.</p>
+
+  <div class="shop">
+    <a href="https://amazon.com">Back to Amazon</a>
+    <h2>Nike Black Running Shoes</h2>
+    <p class="price">$39 - in stock</p>
+    <p>Free delivery tommorow</p>
+    <button class="cart">Add to Cart</button>
+    <button class="buy">Buy Now</button>
+  </div>
+</body>
+
+</html>
